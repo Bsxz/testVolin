@@ -69,13 +69,14 @@ let group =
 fs.readdirSync(IOS_DEST).forEach((file) => {
   const filepath = path.join(IOS_DEST, file);
   if (fs.lstatSync(filepath).isFile() && /\.(m|mm|h|swift)$/.test(file)) {
-    if (!project.hasFile(file)) {
+    const relativePath = path.relative("ios", filepath); // 相对 ios 文件夹
+    if (!project.hasFile(relativePath)) {
       project.addSourceFile(
-        file,
+        relativePath,
         { target: project.getFirstTarget().uuid },
         group.uuid
       );
-      console.log(`✅ 注册文件到 Xcode: ${file}`);
+      console.log(`✅ 注册文件到 Xcode: ${relativePath}`);
     }
   }
 });
