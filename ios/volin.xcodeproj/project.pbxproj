@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		35E3B38735F04EB183BB7192 /* RNAliOnepass.m in Sources */ = {isa = PBXBuildFile; fileRef = 38001FFC6C6C40B2B4177E6C /* RNAliOnepass.m */; };
+		39808F5D2E695A8500B90EE0 /* react-native-aliyun-onekey.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 39808F562E695A8500B90EE0 /* react-native-aliyun-onekey.podspec */; };
+		39808F5E2E695A8500B90EE0 /* RNAliOnepass.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 39808F5A2E695A8500B90EE0 /* RNAliOnepass.xcworkspace */; };
+		39808F5F2E695A8500B90EE0 /* RNAliOnepass.m in Sources */ = {isa = PBXBuildFile; fileRef = 39808F582E695A8500B90EE0 /* RNAliOnepass.m */; };
+		39808F602E695A8500B90EE0 /* YTXOperators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39808F542E695A8500B90EE0 /* YTXOperators.framework */; };
+		39808F612E695A8500B90EE0 /* YTXMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39808F532E695A8500B90EE0 /* YTXMonitor.framework */; };
+		39808F622E695A8500B90EE0 /* ATAuthSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39808F522E695A8500B90EE0 /* ATAuthSDK.framework */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		40077605C33D90D81C3350BB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9C2D60AE8638FFAA12668CC4 /* PrivacyInfo.xcprivacy */; };
 		7C5D23DA7B0D4B9A99DE020F /* RNAliOnepass.h in Sources */ = {isa = PBXBuildFile; fileRef = DD91DCF5709440718D318318 /* RNAliOnepass.h */; };
@@ -18,16 +24,34 @@
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		39808F662E695A8500B90EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39808F592E695A8500B90EE0 /* RNAliOnepass.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNAliOnepass;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		13B07F961A680F5B00A75B9A /* volin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = volin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = volin/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = volin/Info.plist; sourceTree = "<group>"; };
-		38001FFC6C6C40B2B4177E6C /* RNAliOnepass.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNAliOnepass.m; path = RNAliOnepass.m; sourceTree = "<group>"; };
+		38001FFC6C6C40B2B4177E6C /* RNAliOnepass.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; path = RNAliOnepass.m; sourceTree = "<group>"; };
+		39808F522E695A8500B90EE0 /* ATAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ATAuthSDK.framework; sourceTree = "<group>"; };
+		39808F532E695A8500B90EE0 /* YTXMonitor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTXMonitor.framework; sourceTree = "<group>"; };
+		39808F542E695A8500B90EE0 /* YTXOperators.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTXOperators.framework; sourceTree = "<group>"; };
+		39808F562E695A8500B90EE0 /* react-native-aliyun-onekey.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = "react-native-aliyun-onekey.podspec"; path = "../node_modules/react-native-aliyun-onekey/ios/react-native-aliyun-onekey.podspec"; sourceTree = SOURCE_ROOT; };
+		39808F572E695A8500B90EE0 /* RNAliOnepass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RNAliOnepass.h; path = "../node_modules/react-native-aliyun-onekey/ios/RNAliOnepass.h"; sourceTree = SOURCE_ROOT; };
+		39808F582E695A8500B90EE0 /* RNAliOnepass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNAliOnepass.m; path = "../node_modules/react-native-aliyun-onekey/ios/RNAliOnepass.m"; sourceTree = SOURCE_ROOT; };
+		39808F592E695A8500B90EE0 /* RNAliOnepass.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNAliOnepass.xcodeproj; path = "../node_modules/react-native-aliyun-onekey/ios/RNAliOnepass.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		39808F5A2E695A8500B90EE0 /* RNAliOnepass.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = RNAliOnepass.xcworkspace; path = "../node_modules/react-native-aliyun-onekey/ios/RNAliOnepass.xcworkspace"; sourceTree = SOURCE_ROOT; };
 		515B79E67BE8070A8A02F16B /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-volin/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		9C2D60AE8638FFAA12668CC4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = volin/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		9C2D60AE8638FFAA12668CC4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = volin/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = volin/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		DD91DCF5709440718D318318 /* RNAliOnepass.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RNAliOnepass.h; path = RNAliOnepass.h; sourceTree = "<group>"; };
+		DD91DCF5709440718D318318 /* RNAliOnepass.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; path = RNAliOnepass.h; sourceTree = "<group>"; };
 		E0E78DCC99B046490C09FBA2 /* Pods-volin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-volin.debug.xcconfig"; path = "Target Support Files/Pods-volin/Pods-volin.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = volin/AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +66,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E640430DDE4DAD31B913066 /* libPods-volin.a in Frameworks */,
+				39808F602E695A8500B90EE0 /* YTXOperators.framework in Frameworks */,
+				39808F612E695A8500B90EE0 /* YTXMonitor.framework in Frameworks */,
+				39808F622E695A8500B90EE0 /* ATAuthSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,13 +98,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		39808F4F2E6958BD00B90EE0 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				DD91DCF5709440718D318318 /* RNAliOnepass.h */,
+				38001FFC6C6C40B2B4177E6C /* RNAliOnepass.m */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		39808F512E6959C300B90EE0 /* AliyunOneKey */ = {
+			isa = PBXGroup;
+			children = (
+				39808F552E695A8500B90EE0 /* libs */,
+				39808F562E695A8500B90EE0 /* react-native-aliyun-onekey.podspec */,
+				39808F572E695A8500B90EE0 /* RNAliOnepass.h */,
+				39808F582E695A8500B90EE0 /* RNAliOnepass.m */,
+				39808F592E695A8500B90EE0 /* RNAliOnepass.xcodeproj */,
+				39808F5A2E695A8500B90EE0 /* RNAliOnepass.xcworkspace */,
+			);
+			path = AliyunOneKey;
+			sourceTree = "<group>";
+		};
+		39808F552E695A8500B90EE0 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				39808F522E695A8500B90EE0 /* ATAuthSDK.framework */,
+				39808F532E695A8500B90EE0 /* YTXMonitor.framework */,
+				39808F542E695A8500B90EE0 /* YTXOperators.framework */,
+			);
+			name = libs;
+			path = "../node_modules/react-native-aliyun-onekey/ios/libs";
+			sourceTree = SOURCE_ROOT;
+		};
+		39808F632E695A8500B90EE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39808F672E695A8500B90EE0 /* libRNAliOnepass.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5BB3C950C1E46477ABB80310 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				E0E78DCC99B046490C09FBA2 /* Pods-volin.debug.xcconfig */,
 				FF3274BCFDAC01616DD2F958 /* Pods-volin.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -99,12 +166,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				39808F512E6959C300B90EE0 /* AliyunOneKey */,
 				13B07FAE1A68108700A75B9A /* volin */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				5BB3C950C1E46477ABB80310 /* Pods */,
 				AC8AE3CEF60C28E840018064 /* ExpoModulesProviders */,
+				39808F4F2E6958BD00B90EE0 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -134,14 +203,6 @@
 			);
 			name = Supporting;
 			path = volin/Supporting;
-			sourceTree = "<group>";
-		};
-		9810376A4CAF4BFAA4D11F04 /* AliyunOneKey */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = AliyunOneKey;
-			path = AliyunOneKey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,12 +254,28 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 39808F632E695A8500B90EE0 /* Products */;
+					ProjectRef = 39808F592E695A8500B90EE0 /* RNAliOnepass.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* volin */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		39808F672E695A8500B90EE0 /* libRNAliOnepass.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNAliOnepass.a;
+			remoteRef = 39808F662E695A8500B90EE0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
@@ -209,6 +286,8 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
 				40077605C33D90D81C3350BB /* PrivacyInfo.xcprivacy in Resources */,
+				39808F5D2E695A8500B90EE0 /* react-native-aliyun-onekey.podspec in Resources */,
+				39808F5E2E695A8500B90EE0 /* RNAliOnepass.xcworkspace in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +421,7 @@
 				7C5D23DA7B0D4B9A99DE020F /* RNAliOnepass.h in Sources */,
 				35E3B38735F04EB183BB7192 /* RNAliOnepass.m in Sources */,
 				91D4AB326CEC25FF417DA727 /* ExpoModulesProvider.swift in Sources */,
+				39808F5F2E695A8500B90EE0 /* RNAliOnepass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,10 +549,7 @@
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -527,10 +604,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
